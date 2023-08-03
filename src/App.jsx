@@ -1,16 +1,17 @@
-import './App.css'
-// import Categories from './Components/Categories'
-import Footer from './Components/Footer'
-
+// import Navbar from "./Components/Navbar";
+// import Shoes from "./Components/Shoes";
+// import Sweaters from "./Components/Sweaters";
+// import Tops from "./Components/Tops";
+// import Bags from "./Components/Bags";
 function App() {
-
-
   return (
     <>
-     {/* <Categories/> */}
-     <Footer/>
+      {/* <Navbar />
+      <Sweaters/>
+      <Shoes/>
+      <Tops/>
+      <Bags/> */}
     </>
-  )
+  );
 }
-
-export default App
+export default App;
