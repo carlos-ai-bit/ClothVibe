@@ -1,4 +1,5 @@
-// import { RiSearchLine } from "react-icons/ri";
+import { RiSearchLine } from "react-icons/ri";
+import { RiShoppingCart2Fill } from "react-icons/ri";
 const HomePage = () => {
   return (
     <div className="">
@@ -6,10 +7,14 @@ const HomePage = () => {
         <div className="mt-8 shadow mx-8 mb-4 border flex flex-col justify-center item-center">
           <div className="flex mt-1 mb-2">
             {" "}
-            <h1 className="mx-2">SAMORI.COM</h1>
-            <h1 className="text-blue-400 mx-2">Home</h1>
+            <h1 className="mx-2 mt-2">SAMORI.COM</h1>
+            <h1 className="text-blue-400 mx-2 mt-2">Home</h1>
             <h1>
-              <select className="mr-1 rounded-full text-center" name="" id="">
+              <select
+                className="mr-1 rounded-full text-center mt-3"
+                name=""
+                id=""
+              >
                 <option value="">Category</option>
                 <option value="clothes">Clothes</option>
                 <option value="shoes">Shoes</option>
@@ -17,7 +22,11 @@ const HomePage = () => {
               </select>
             </h1>
             <h1>
-              <select className="mx-1 rounded-full text-center" name="" id="">
+              <select
+                className="mx-1 rounded-full text-center mt-3"
+                name=""
+                id=""
+              >
                 <option value=""> Our Products</option>
                 <option value="all">All</option>
                 <option value="sweaters">Sweaters</option>
@@ -26,18 +35,19 @@ const HomePage = () => {
                 <option value="tops">Tops</option>
               </select>
             </h1>
-            <a className="mx-1" href="http://">
+            <a className="mx-1 mt-2" href="http://">
               About Us
             </a>
-            <a className="mx-1" href="http://">
+            <a className="mx-1 mt-2" href="http://">
               FAQ
             </a>
-            <input
+            {/* <input
               className="mx-1 rounded-md text-center border-2"
               placeholder="Search"
-            ></input>
-            {/* <RiSearchLine className="search-icon" /> */}
-            <button className="hover:bg-blue-100 dark:hover:bg-blue-500 bg-blue-400 rounded-full text-center py-2.5 px-5">
+            ></input> */}
+            <RiSearchLine className="search-icon ml-6 mt-3" />
+            <RiShoppingCart2Fill className="search-icon mx-6 mt-3" />
+            <button className="mt-1 dark:hover:bg-blue-500 bg-blue-400 rounded-full text-center py-1 px-5">
               Shop Now
             </button>
           </div>
@@ -51,7 +61,7 @@ const HomePage = () => {
           Sign Up
         </button>
       </div>
-      <h3 className="font-bold text-center">BEST TRENDY OUTFIT</h3>
+      <h3 className="font-bold text-center mb-6">BEST TRENDY OUTFIT</h3>
       <div className="flex">
         {" "}
         <img
