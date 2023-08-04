@@ -4,6 +4,7 @@ import Shoes from "./Components/Shoes";
 import Sweaters from "./Components/Sweaters";
 import Tops from "./Components/Tops";
 import Bags from "./Components/Bags";
+import Cartview from "./Component/Cartview";
 function App() {
   return (
     <>
@@ -12,6 +13,7 @@ function App() {
       <Shoes/>
       <Tops/>
       <Bags/>
+      <Cartview/>
     </>
   );
 }
