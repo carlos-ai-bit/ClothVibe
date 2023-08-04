@@ -7,9 +7,11 @@ import Bags from "./Components/Bags";
 import HomePage from "./Components/HomePage";
 import All from "./Components/All";
 import UnderWear from "./Components/UnderWear";
+import Cartview from "./Components/Cartview";
 function App() {
   return (
     <>
+    
       <Routes>
         <Route exact path="/" element={<HomePage />} />
         <Route exact path="/all" element={<All />} />
@@ -18,6 +20,7 @@ function App() {
         <Route exact path="/tops" element={<Tops />} />
         <Route exact path="/bags" element={<Bags />} />
         <Route exact path="/UnderWear" element={<UnderWear />} />
+        <Route exact path="/Cartview" element={<Cartview />} />
       </Routes>
     </>
   );
