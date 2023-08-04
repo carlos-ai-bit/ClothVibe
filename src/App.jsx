@@ -13,7 +13,6 @@ function App() {
   return (
     
       <>
-        <Navbar />
         <Routes>
           <Route exact path="/all" element={<All/> }/>
           <Route exact path="/sweaters" element={<Sweaters/>} />
