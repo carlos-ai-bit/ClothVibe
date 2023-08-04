@@ -5,7 +5,7 @@ function All() {
    <div className="w-full h-full"
       >
  <img
- src="src/Assets/beauty.jpg"
+ src="src/Assets/clothes asthetic.jpg"
  className="w-full h-full"
  />
 
