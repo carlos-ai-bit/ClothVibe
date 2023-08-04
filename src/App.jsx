@@ -1,5 +1,9 @@
-// import HomePage from "./Components/HomePage";
+import HomePage from "./Components/HomePage";
 function App() {
-  return <>{/* <HomePage /> */}</>;
+  return (
+    <>
+      <HomePage />
+    </>
+  );
 }
 export default App;
