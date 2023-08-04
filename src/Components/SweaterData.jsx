@@ -1,5 +1,5 @@
 // sweaterData.js
-const SweaterData = [
+const sweaterData = [
   {
     id: 1,
     name: 'Cozy Sweater',
@@ -18,7 +18,7 @@ const SweaterData = [
     price: 500.00,
     imageSrc: 'public/Assets/Sweater2.jpg',
   },
- 
+  // Add more sweater objects here
 ];
 
-export default SweaterData;
+export default sweaterData;
