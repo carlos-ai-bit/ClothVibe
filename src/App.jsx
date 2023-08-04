@@ -1,3 +1,6 @@
+//import Loginpage from "./Components/Loginpage";
+//import Signupage from "./Components/Signupage";
+import AddCart from "./Components/AddCart";
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
 import Shoes from "./Components/Shoes";
@@ -10,6 +13,9 @@ import UnderWear from "./Components/UnderWear";
 function App() {
   return (
     <>
+       <AddCart/> 
+       {/*<Loginpage/>*/} 
+       {/*<Signupage/>*/} 
       <Routes>
         <Route exact path="/" element={<HomePage />} />
         <Route exact path="/all" element={<All />} />
