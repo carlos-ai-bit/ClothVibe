@@ -1,5 +1,9 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faShoppingCart, faHeart, faDollarSign } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faShoppingCart,
+  faHeart,
+  faDollarSign,
+} from "@fortawesome/free-solid-svg-icons";
 
 function Sweaters() {
   return (
@@ -12,7 +16,7 @@ function Sweaters() {
           <img src="src/Assets/images (4).jpeg" alt="Sweater" />
           <div className="icon-container flex items-center ml-10">
             <FontAwesomeIcon icon={faDollarSign} className="Dollar-icon" />
-            <h1 className='ml-2 mr-4'>500.00</h1>
+            <h1 className="ml-2 mr-4">500.00</h1>
             <FontAwesomeIcon icon={faShoppingCart} className="Cart-icon" />
           </div>
         </div>
@@ -24,7 +28,7 @@ function Sweaters() {
           <img src="src/Assets/61Q3vAe5LuL._AC_UY1100_.jpg" alt="Sweater" />
           <div className="icon-container flex items-center ml-10">
             <FontAwesomeIcon icon={faDollarSign} className="Dollar-icon" />
-            <h1 className='ml-2 mr-4'>500.00</h1>
+            <h1 className="ml-2 mr-4">500.00</h1>
             <FontAwesomeIcon icon={faShoppingCart} className="Cart-icon" />
           </div>
         </div>
@@ -36,13 +40,13 @@ function Sweaters() {
           <img src="src/Assets/505183_1155_41.jpeg" alt="Sweater" />
           <div className="icon-container flex items-center ml-10">
             <FontAwesomeIcon icon={faDollarSign} className="Dollar-icon" />
-            <h1 className='ml-2 mr-4'>500.00</h1>
+            <h1 className="ml-2 mr-4">500.00</h1>
             <FontAwesomeIcon icon={faShoppingCart} className="Cart-icon" />
           </div>
         </div>
       </div>
     </form>
-  )
+  );
 }
 
 export default Sweaters;

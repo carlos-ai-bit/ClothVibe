@@ -1,5 +1,4 @@
 const Payment = () => {
-  
   return (
     <div>
       <form action="">
