@@ -1,6 +1,11 @@
 import { RiSearchLine } from "react-icons/ri";
 import { RiShoppingCart2Fill } from "react-icons/ri";
+import { useNavigate } from "react-router-dom";
 const HomePage = () => {
+  const navigate = useNavigate();
+  function navigateClothes() {
+    navigate("/");
+  }
   return (
     <div className="">
       <section>
@@ -16,7 +21,9 @@ const HomePage = () => {
                 id=""
               >
                 <option value="">Category</option>
-                <option value="clothes">Clothes</option>
+                <option onClick={navigateClothes} value="clothes">
+                  <button className="bg-blue-900">Clohes</button>
+                </option>
                 <option value="shoes">Shoes</option>
                 <option value="accesories">Accesories</option>
               </select>

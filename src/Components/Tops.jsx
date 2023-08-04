@@ -1,5 +1,9 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faShoppingCart, faHeart, faDollarSign } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faShoppingCart,
+  faHeart,
+  faDollarSign,
+} from "@fortawesome/free-solid-svg-icons";
 
 function Tops() {
   return (
@@ -12,7 +16,7 @@ function Tops() {
           <img src="src/Assets/images rep.jpeg" alt="" />
           <div className="icon-container flex flex-column items-center ml-10">
             <FontAwesomeIcon icon={faDollarSign} className="Dollar-icon" />
-            <h1 className='mt-2'>500.00</h1>
+            <h1 className="mt-2">500.00</h1>
             <FontAwesomeIcon icon={faShoppingCart} className="Cart-icon" />
           </div>
         </div>
@@ -23,7 +27,7 @@ function Tops() {
           <img src="src/Assets/ptop.jpeg" alt="" />
           <div className="icon-container flex flex-column items-center ml-10">
             <FontAwesomeIcon icon={faDollarSign} className="Dollar-icon" />
-            <h1 className='mt-2'>500.00</h1>
+            <h1 className="mt-2">500.00</h1>
             <FontAwesomeIcon icon={faShoppingCart} className="Cart-icon" />
           </div>
         </div>
@@ -34,13 +38,13 @@ function Tops() {
           <img src="src/Assets/18149619_0_ladies-tops.webp" alt="" />
           <div className="icon-container flex flex-column items-center ml-10">
             <FontAwesomeIcon icon={faDollarSign} className="Dollar-icon" />
-            <h1 className='mt-2'>500.00</h1>
+            <h1 className="mt-2">500.00</h1>
             <FontAwesomeIcon icon={faShoppingCart} className="Cart-icon" />
           </div>
         </div>
       </div>
     </form>
-  )
+  );
 }
 
 export default Tops;

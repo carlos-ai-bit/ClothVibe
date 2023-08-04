@@ -1,5 +1,9 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faShoppingCart, faHeart, faDollarSign } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faShoppingCart,
+  faHeart,
+  faDollarSign,
+} from "@fortawesome/free-solid-svg-icons";
 
 function Shoes() {
   return (
@@ -12,7 +16,7 @@ function Shoes() {
           <img src="src/Assets/Adiddas.jpg" alt="" />
           <div className="icon-container flex flex-row items-end justify-center mt-4">
             <FontAwesomeIcon icon={faDollarSign} className="Dollar-icon" />
-            <h1 className='ml-2 mr-2'>500.00</h1>
+            <h1 className="ml-2 mr-2">500.00</h1>
             <FontAwesomeIcon icon={faShoppingCart} className="Cart-icon" />
           </div>
         </div>
@@ -23,7 +27,7 @@ function Shoes() {
           <img src="src/Assets/Canvas.jpg" alt="" />
           <div className="icon-container flex flex-row items-end justify-center mt-4">
             <FontAwesomeIcon icon={faDollarSign} className="Dollar-icon" />
-            <h1 className='ml-2 mr-2'>500.00</h1>
+            <h1 className="ml-2 mr-2">500.00</h1>
             <FontAwesomeIcon icon={faShoppingCart} className="Cart-icon" />
           </div>
         </div>
@@ -34,13 +38,13 @@ function Shoes() {
           <img src="src/Assets/black shoes.jpeg" alt="" />
           <div className="icon-container flex flex-row items-end justify-center mt-4">
             <FontAwesomeIcon icon={faDollarSign} className="Dollar-icon" />
-            <h1 className='ml-2 mr-2'>500.00</h1>
+            <h1 className="ml-2 mr-2">500.00</h1>
             <FontAwesomeIcon icon={faShoppingCart} className="Cart-icon" />
           </div>
         </div>
       </div>
     </form>
-  )
+  );
 }
 
 export default Shoes;
