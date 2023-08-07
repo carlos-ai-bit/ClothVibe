@@ -1,6 +1,32 @@
 import { RiSearchLine } from "react-icons/ri";
 import { RiShoppingCart2Fill } from "react-icons/ri";
+import { useNavigate } from "react-router-dom";
 const HomePage = () => {
+  const navigate = useNavigate();
+  function navigateHome() {
+    navigate("/");
+  }
+  function navigateClothes() {
+    navigate("/All");
+  }
+  function navigateShoes() {
+    navigate("/Shoes");
+  }
+  function navigateAccesories() {
+    navigate("/Accesories");
+  }
+  function navigateSweaters() {
+    navigate("/Sweaters");
+  }
+  function navigateUnderWear() {
+    navigate("/UnderWear");
+  }
+  function navigateTops() {
+    navigate("/Tops");
+  }
+  function navigateCartView() {
+    navigate("/CartView");
+  }
   return (
     <div className="">
       <section>
@@ -8,7 +34,7 @@ const HomePage = () => {
           <div className="flex mt-1 mb-2">
             {" "}
             <h1 className="mx-2 mt-2">SAMORI.COM</h1>
-            <h1 className="text-blue-400 mx-2 mt-2">Home</h1>
+            <h1 onClick={navigateHome} className="text-blue-400 mx-2 mt-2">Home</h1>
             <h1>
               <select
                 className="mr-1 rounded-full text-center mt-3"
@@ -16,9 +42,15 @@ const HomePage = () => {
                 id=""
               >
                 <option value="">Category</option>
-                <option value="clothes">Clothes</option>
-                <option value="shoes">Shoes</option>
-                <option value="accesories">Accesories</option>
+                <option onClick={navigateClothes} value="clothes">
+                  Clothes
+                </option>
+                <option onClick={navigateShoes} value="shoes">
+                  Shoes
+                </option>
+                <option onClick={navigateAccesories} value="accesories">
+                  Accesories
+                </option>
               </select>
             </h1>
             <h1>
@@ -28,11 +60,18 @@ const HomePage = () => {
                 id=""
               >
                 <option value=""> Our Products</option>
-                <option value="all">All</option>
-                <option value="sweaters">Sweaters</option>
-                <option value="tops">Tops</option>
-                <option value="tops">Under Wear</option>
-                <option value="tops">Tops</option>
+                <option onClick={navigateClothes} value="all">
+                  All
+                </option>
+                <option onClick={navigateSweaters} value="sweaters">
+                  Sweaters
+                </option>
+                <option onClick={navigateTops} value="tops">
+                  Tops
+                </option>
+                <option onClick={navigateUnderWear} value="tops">
+                  Under Wear
+                </option>
               </select>
             </h1>
             <a className="mx-1 mt-2" href="http://">
@@ -47,7 +86,10 @@ const HomePage = () => {
             ></input> */}
             <RiSearchLine className="search-icon ml-6 mt-3" />
             <RiShoppingCart2Fill className="search-icon mx-6 mt-3" />
-            <button className="mt-1 dark:hover:bg-blue-500 bg-blue-400 rounded-full text-center py-1 px-5">
+            <button
+              onClick={navigateCartView}
+              className="mt-1 dark:hover:bg-blue-500 bg-blue-400 rounded-full text-center py-1 px-5"
+            >
               Shop Now
             </button>
           </div>
