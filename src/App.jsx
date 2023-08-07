@@ -1,3 +1,6 @@
+import './App.css'
+// import Categories from './Components/Categories'
+// import Footer from './Components/Foot
 //import Loginpage from "./Components/Loginpage";
 //import Signupage from "./Components/Signupage";
 import AddCart from "./Components/AddCart";
@@ -17,6 +20,8 @@ function App() {
        <AddCart/> 
        {/*<Loginpage/>*/} 
        {/*<Signupage/>*/} 
+       {/* <Categories/> */}
+       {/* <Footer/> */}
       <Routes>
         <Route exact path="/" element={<HomePage />} />
         <Route exact path="/all" element={<All />} />
