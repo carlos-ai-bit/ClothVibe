@@ -1,3 +1,6 @@
+import './App.css'
+// import Categories from './Components/Categories'
+// import Footer from './Components/Foot
 //import Loginpage from "./Components/Loginpage";
 //import Signupage from "./Components/Signupage";
 // import AddCart from "./Components/AddCart";
@@ -15,9 +18,16 @@ import Payment from "./Components/Payment";
 function App() {
   return (
     <>
+
       {/* <AddCart/>  */}
       {/*<Loginpage/>*/}
       {/*<Signupage/>*/}
+
+       <AddCart/> 
+       {/*<Loginpage/>*/} 
+       {/*<Signupage/>*/} 
+       {/* <Categories/> */}
+       {/* <Footer/> */}
       <Routes>
         <Route exact path="/" element={<HomePage />} />
         <Route exact path="/payment" element={<Payment />} />
