@@ -8,6 +8,24 @@ function Footer() {
           <img className="w-36 h-40" src="src/assets/7938113 (1).jpg" alt="" />
           <h4 className="text-black-200  ml-10 text-center">
             LEADING BEST <br />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
             CLOTHING <br />
             BRANDS ACROSS <br /> THE GLOBE
           </h4>
