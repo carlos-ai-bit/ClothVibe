@@ -11,17 +11,17 @@ import All from "./Components/All";
 import UnderWear from "./Components/UnderWear";
 function App() {
   return (
-    
-      <>
-        <Routes>
-          <Route exact path="/all" element={<All/> }/>
-          <Route exact path="/sweaters" element={<Sweaters/>} />
-          <Route exact path="/shoes" element={<Shoes/>} />
-          <Route exact path="/tops" element={<Tops/>} />
-          <Route exact path="/bags" element={<Bags/>} />
-          <Route exact path="/UnderWear" element={<UnderWear/>} />
-          </Routes>
-      </>
+
+    <>
+      <Routes>
+        <Route exact path="/all" element={<All />} />
+        <Route exact path="/sweaters" element={<Sweaters />} />
+        <Route exact path="/shoes" element={<Shoes />} />
+        <Route exact path="/tops" element={<Tops />} />
+        <Route exact path="/bags" element={<Bags />} />
+        <Route exact path="/UnderWear" element={<UnderWear />} />
+      </Routes>
+    </>
 
   );
 }
