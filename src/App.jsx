@@ -1,10 +1,10 @@
-import './App.css'
 // import Categories from './Components/Categories'
 // import Footer from './Components/Foot
 //import Loginpage from "./Components/Loginpage";
 //import Signupage from "./Components/Signupage";
 // import AddCart from "./Components/AddCart";
 import "./App.css";
+// import CheckoutForm from "./Components/CheckoutForm"
 import { Route, Routes } from "react-router-dom";
 import Shoes from "./Components/Shoes";
 import Sweaters from "./Components/Sweaters";
@@ -18,16 +18,12 @@ import Payment from "./Components/Payment";
 function App() {
   return (
     <>
-
       {/* <AddCart/>  */}
       {/*<Loginpage/>*/}
       {/*<Signupage/>*/}
-
-       <AddCart/> 
-       {/*<Loginpage/>*/} 
-       {/*<Signupage/>*/} 
-       {/* <Categories/> */}
-       {/* <Footer/> */}
+      {/* <Categories/> */}
+      {/* <Footer/> */}
+      {/* <CheckoutForm/> */}
       <Routes>
         <Route exact path="/" element={<HomePage />} />
         <Route exact path="/payment" element={<Payment />} />

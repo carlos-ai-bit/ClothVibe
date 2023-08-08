@@ -1,4 +1,11 @@
+// import { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 const Payment = () => {
+  const navigate = useNavigate();
+  function navigateHome() {
+    navigate("/");
+  }
+
   return (
     <div className="">
       <form action="">
@@ -38,7 +45,10 @@ const Payment = () => {
         </div>
         <div>
           {" "}
-          <button className="my-6 mx-7 shadow rounded-md text-center py-2.5 px-5">
+          <button
+            onClick={navigateHome}
+            className="my-6 mx-7 shadow rounded-md text-center py-2.5 px-5"
+          >
             Close
           </button>
           <button className="ml-3 mr-5 dark:hover:bg-blue-500 bg-blue-400 rounded-md text-center py-2.5 px-5">

@@ -24,9 +24,6 @@ const HomePage = () => {
   function navigateTops() {
     navigate("/Tops");
   }
-  function navigateCartView() {
-    navigate("/CartView");
-  }
   return (
     <div className="">
       <section>
@@ -34,7 +31,9 @@ const HomePage = () => {
           <div className="flex mt-1 mb-2">
             {" "}
             <h1 className="mx-2 mt-2">SAMORI.COM</h1>
-            <h1 onClick={navigateHome} className="text-blue-400 mx-2 mt-2">Home</h1>
+            <h1 onClick={navigateHome} className="text-blue-400 mx-2 mt-2">
+              Home
+            </h1>
             <h1>
               <select
                 className="mr-1 rounded-full text-center mt-3"
@@ -87,7 +86,7 @@ const HomePage = () => {
             <RiSearchLine className="search-icon ml-6 mt-3" />
             <RiShoppingCart2Fill className="search-icon mx-6 mt-3" />
             <button
-              onClick={navigateCartView}
+              onClick={navigateClothes}
               className="mt-1 dark:hover:bg-blue-500 bg-blue-400 rounded-full text-center py-1 px-5"
             >
               Shop Now
