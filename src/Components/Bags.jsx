@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faShoppingCart, faHeart, faDollarSign } from '@fortawesome/free-solid-svg-icons';
-
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 function Bags() {
   return (
     <form action="">
@@ -33,6 +34,11 @@ function Bags() {
             <h1 className='mt-2 ml-6'>500.00</h1>
             <FontAwesomeIcon icon={faShoppingCart} className="Cart-icon ml-6" />
           </div>
+        </div>
+        <div className="pagination">
+          <Link to="/otherbags" className="next-button">
+            Next <FontAwesomeIcon icon={faArrowRight} className="arrow-icon" />
+          </Link>
         </div>
       </div>
     </form>

@@ -4,7 +4,7 @@ import { faShoppingCart, faHeart, faDollarSign } from '@fortawesome/free-solid-s
 function OtherSweaters() {
     return (
         <form action="">
-          <div className="shadow mx-8 mb-4 py-4 items-center flex flex-wrap ml-64">
+          <div className="shadow mx-8 mb-4 py-4 items-center flex flex-wrap ml-64 grid-container">
             <div className="shadow mx-8 mb-4 py-4 w-56 rounded-lg ml-64">
               <div>
                 <FontAwesomeIcon icon={faHeart} className="Like-icon ml-48" />

@@ -1,8 +1,8 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faShoppingCart, faHeart, faDollarSign } from '@fortawesome/free-solid-svg-icons';
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons"; // Use faArrowRight for a right-facing arrow
-
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons"; 
 import { Link } from "react-router-dom";
+
 function Shoes() {
   return (
     <form action="">

@@ -11,6 +11,9 @@ import All from "./Components/All";
 import UnderWear from "./Components/UnderWear";
 import OtherSweaters from "./Components/OtherSweaters";
 import OtherShoes from "./Components/OtherShoes";
+import OtherTops from "./Components/OtherTops";
+import OtherUnder from "./Components/OtherUnder";
+import Otherbags from './Components/Otherbags'
 function App() {
   return (
     
@@ -25,6 +28,9 @@ function App() {
           <Route exact path="/UnderWear" element={<UnderWear/>} />
          <Route exact path="/othersweaters" element={<OtherSweaters/>}/>
          <Route exact path="/othershoes" element={<OtherShoes/>}/>
+         <Route exact path="/othertops" element={<OtherTops/>}/>
+         <Route exact path="/otherunder" element={<OtherUnder/>}/>
+         <Route exact path="/otherbags" element={<Otherbags/>}/>
         </Routes> 
       </>
 
