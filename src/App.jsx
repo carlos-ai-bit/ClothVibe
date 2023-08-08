@@ -1,9 +1,8 @@
 import './App.css'
-// import Categories from './Components/Categories'
-// import Footer from './Components/Foot
-//import Loginpage from "./Components/Loginpage";
-//import Signupage from "./Components/Signupage";
-// import AddCart from "./Components/AddCart";
+import Footer from './Components/Footer'
+import Loginpage from "./Components/Loginpage";
+import Signupage from "./Components/Signupage";
+import AddCart from "./Components/AddCart";
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
 import Shoes from "./Components/Shoes";
@@ -20,14 +19,10 @@ function App() {
     <>
 
       {/* <AddCart/>  */}
-      {/*<Loginpage/>*/}
-      {/*<Signupage/>*/}
-
-       <AddCart/> 
-       {/*<Loginpage/>*/} 
-       {/*<Signupage/>*/} 
-       {/* <Categories/> */}
-       {/* <Footer/> */}
+      <Loginpage/>
+      <Signupage/>
+    
+       <Footer/>
       <Routes>
         <Route exact path="/" element={<HomePage />} />
         <Route exact path="/payment" element={<Payment />} />
