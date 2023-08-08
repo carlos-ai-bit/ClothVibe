@@ -42,6 +42,7 @@ function Footer() {
           type="text"
           className="bg--30 border border-gray-300 text-black-200 text-sm rounded-full  p-2 shadow  dark:border-gray-600  dark:focus:ring-blue-500 dark:focus:border-blue-500"
           placeholder="Enter Your Email"
+          required
         />
         <button
           type="submit"

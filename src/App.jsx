@@ -3,7 +3,7 @@ import "./App.css";
 import Footer from "./Components/Footer";
 import Loginpage from "./Components/Loginpage";
 import Signupage from "./Components/Signupage";
-import AddCart from "./Components/AddCart";
+// import AddCart from "./Components/AddCart";
 import { Route, Routes } from "react-router-dom";
 import Shoes from "./Components/Shoes";
 import Sweaters from "./Components/Sweaters";
@@ -15,11 +15,12 @@ import UnderWear from "./Components/UnderWear";
 function App() {
   return (
     <>
-      <AddCart/> 
+      {/* <AddCart/>  */}
       { <Loginpage/>} 
        {<Signupage/>} 
    
       {<Footer />}
+      
       <Routes>
          <Route exact path="/" element={<HomePage />} />
         <Route exact path="/all" element={<All />} />
