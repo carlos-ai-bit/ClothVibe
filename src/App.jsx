@@ -1,9 +1,11 @@
-import './App.css'
-import Footer from './Components/Footer'
+import "./App.css";
+import Footer from "./Components/Footer";
+import "./App.css";
+// import Footer from "./Components/Footer";
+import "./App.css";
 import Loginpage from "./Components/Loginpage";
 import Signupage from "./Components/Signupage";
-import AddCart from "./Components/AddCart";
-import "./App.css";
+// import AddCart from "./Components/AddCart";
 import { Route, Routes } from "react-router-dom";
 import Shoes from "./Components/Shoes";
 import Sweaters from "./Components/Sweaters";
@@ -18,12 +20,19 @@ import ProjectsDescription from './Components/ProjectsDescription';
 function App() {
   return (
     <>
-
       {/* <AddCart/>  */}
       <Loginpage />
       <Signupage />
       <Routes>
-        <Route exact path="/" element={<HomePage />} />
+        <Route exact path="/" element={<HomePage />} />{" "}
+        <Route exact path="/Loginpage" element={<Loginpage />} />
+        <Route exact path="/Signupage" element={<Signupage />} />
+        {/* <Route exact path="/AddCart" element={<AddCart />} /> */}
+        {/* <Route exact path="/Footer" element={<Footer />} /> */}
+        <Route exact path="/" element={<HomePage />} />{" "}
+        <Route exact path="/Loginpage" element={<Loginpage />} />
+        <Route exact path="/Signupage" element={<Signupage />} />
+        <Route exact path="/Footer" element={<Footer />} />
         <Route exact path="/payment" element={<Payment />} />
         <Route exact path="/all" element={<All />} />
         <Route exact path="/sweaters" element={<Sweaters />} />
