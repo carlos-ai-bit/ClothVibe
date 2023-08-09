@@ -1,5 +1,10 @@
+
 import "./App.css";
 import Footer from "./Components/Footer";
+import "./App.css";
+// import Footer from "./Components/Footer";
+import './App.css'
+import Footer from './Components/Footer'
 import Loginpage from "./Components/Loginpage";
 import Signupage from "./Components/Signupage";
 // import AddCart from "./Components/AddCart";
@@ -16,7 +21,20 @@ import Payment from "./Components/Payment";
 function App() {
   return (
     <>
+
       {/* <AddCart/>  */}
+
+
+      <Routes>
+        <Route exact path="/" element={<HomePage />} />{" "}
+        <Route exact path="/Loginpage" element={<Loginpage />} />
+        <Route exact path="/Signupage" element={<Signupage />} />
+        <Route exact path="/AddCart" element={<AddCart />} />
+        {/* <Route exact path="/Footer" element={<Footer />} /> */}
+      {/* <AddCart/>  */}
+      <Loginpage/>
+      <Signupage/>
+       <Footer/>
 
       <Routes>
         <Route exact path="/" element={<HomePage />} />{" "}
