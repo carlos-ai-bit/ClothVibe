@@ -46,8 +46,6 @@ function Sweaters() {
             <FontAwesomeIcon icon={faShoppingCart} className="Cart-icon" />
           </div>
         </div>
-
-   
         <div className="pagination">
           <Link to="/othersweaters" className="next-button">
             Next <FontAwesomeIcon icon={faArrowRight} className="arrow-icon" />

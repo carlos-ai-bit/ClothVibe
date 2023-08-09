@@ -16,7 +16,6 @@ function ProductsView({price, image}) {
             <FontAwesomeIcon icon={faShoppingCart} className="Cart-icon" />
           </div>
         </div>
-    
   )
 }
 ProductsView.propTypes={

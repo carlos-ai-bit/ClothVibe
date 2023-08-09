@@ -10,7 +10,7 @@ function OtherShoes() {
                 <FontAwesomeIcon icon={faHeart} className="Like-icon ml-48" />
                 <button className='bg-blue-400 rounded-lg px-4'>New </button>
               </div>
-              <img src="src/Assets/Adiddas.jpg" alt="" />
+              <img src="src/Assets/Adidas.jpg" alt="" />
               <div className="icon-container flex flex-row items-end justify-center mt-4">
                 <FontAwesomeIcon icon={faDollarSign} className="Dollar-icon" />
                 <h1 className=' ml-6'>500.00</h1>
