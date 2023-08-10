@@ -32,7 +32,6 @@ function App() {
           <Route path="/otherBags"element={<OtherBags/>}/>
         </Routes> */}
     </div>
-
 import "./App.css";
 import Footer from "./Components/Footer";
 import "./App.css";
