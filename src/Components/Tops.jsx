@@ -1,7 +1,12 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faShoppingCart, faHeart, faDollarSign } from '@fortawesome/free-solid-svg-icons';
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons"; 
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faShoppingCart,
+  faHeart,
+  faDollarSign,
+} from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 function Tops() {
   return (
@@ -16,6 +21,8 @@ function Tops() {
             <FontAwesomeIcon icon={faDollarSign} className="Dollar-icon" />
             <h1 className='mt-2 ml-6'>500.00</h1>
             <FontAwesomeIcon icon={faShoppingCart} className="Cart-icon ml-6" />
+            <h1 className="mt-2">500.00</h1>
+            <FontAwesomeIcon icon={faShoppingCart} className="Cart-icon" />
           </div>
         </div>
         <div className="shadow mx-8 mb-4 py-4 w-56 rounded-lg">
@@ -28,6 +35,8 @@ function Tops() {
             <FontAwesomeIcon icon={faDollarSign} className="Dollar-icon" />
             <h1 className='mt-2 ml-6'>500.00</h1>
             <FontAwesomeIcon icon={faShoppingCart} className="Cart-icon ml-6" />
+            <h1 className="mt-2">500.00</h1>
+            <FontAwesomeIcon icon={faShoppingCart} className="Cart-icon" />
           </div>
         </div>
         <div className="shadow mx-8 mb-4 py-4 w-56 rounded-lg">
@@ -40,6 +49,8 @@ function Tops() {
             <FontAwesomeIcon icon={faDollarSign} className="Dollar-icon" />
             <h1 className='mt-2 ml-6'>500.00</h1>
             <FontAwesomeIcon icon={faShoppingCart} className="Cart-icon ml-6" />
+            <h1 className="mt-2">500.00</h1>
+            <FontAwesomeIcon icon={faShoppingCart} className="Cart-icon" />
           </div>
         </div>
         <div className="pagination">
@@ -49,7 +60,7 @@ function Tops() {
         </div>
       </div>
     </form>
-  )
+  );
 }
 
 export default Tops;

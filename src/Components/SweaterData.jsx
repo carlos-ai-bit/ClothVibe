@@ -1,4 +1,3 @@
-
 export const sweaterData = [
 {
     id: 1,
@@ -88,6 +87,21 @@ export const underwearData = [
     name: 'Stylish Sweater',
     price: "KSh500",
     imageSrc: 'src/Assets/innerblue.jpeg',
+    name: "Cozy Sweater",
+    price: 500.0,
+    imageSrc: "src/Assets/Sweater.jpg",
+  },
+  {
+    id: 2,
+    name: "Cool Sweater",
+    price: 500.0,
+    imageSrc: "src/Assets/Coolsweater.jpg",
+  },
+  {
+    id: 3,
+    name: "Stylish Sweater",
+    price: 500.0,
+    imageSrc: "src/Assets/Sweater2.jpg",
   },
 
 ];

@@ -1,6 +1,5 @@
 import ProductsView from "./ProductsView";
 import { sweaterData, shoesData, topsData, bagsData, underwearData } from "./SweaterData";
-
 function All() {
   const filterProductsByType = (productType) => {
     switch (productType) {
@@ -35,6 +34,15 @@ function All() {
 
       <ProductsView />
     </div>
+  );
+}
+
+export default All;
+    <>
+      <div className="w-full h-full">
+        <img src="src/Assets/clothes asthetic.jpg" className="w-full h-full" />
+      </div>
+    </>
   );
 }
 
