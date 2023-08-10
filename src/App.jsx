@@ -22,10 +22,12 @@ import HomePage from "./Components/HomePage";
 import Cartview from "./Components/Cartview";
 import Payment from "./Components/Payment";
 import ProjectsDescription from "./Components/ProjectsDescription";
+// import ImageList from "./Components/ClothesData";
 function App() {
   return (
     <>
       {/* <AddCart/>  */}
+      {/* <ImageList/> */}
       <Routes>
         <Route exact path="/" element={<HomePage />} />{" "}
         <Route exact path="/Loginpage" element={<Loginpage />} />
