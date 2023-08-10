@@ -1,14 +1,24 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faShoppingCart, faHeart, faDollarSign } from '@fortawesome/free-solid-svg-icons';
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons"; 
+<<<<<<< HEAD
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faShoppingCart,
   faHeart,
   faDollarSign,
 } from "@fortawesome/free-solid-svg-icons";
+=======
+>>>>>>> c4420a8 (installs Prop types and adds a cartview page)
 import { Link } from "react-router-dom";
+import { useState } from 'react';
+
+
 function Tops() {
+  const [cartItems, setCartItems] =useState([]);
+  const  addToCart =(item)=>{
+    setCartItems([...cartItems, item]);
+  }
   return (
     <form action="">
       <div className="shadow mx-8 mb-4 py-4 items-center flex">
@@ -30,13 +40,19 @@ function Tops() {
             <FontAwesomeIcon icon={faHeart} className="Like-icon ml-48" />
             <button className='bg-blue-400 rounded-lg px-4'>sold</button>
           </div>
-          <img src="src/Assets/ptop.jpeg" alt="" />
+          <img src="src/Assets/top.jpeg" alt="" />
           <div className="icon-container flex flex-column items-center ml-10">
             <FontAwesomeIcon icon={faDollarSign} className="Dollar-icon" />
             <h1 className='mt-2 ml-6'>500.00</h1>
+<<<<<<< HEAD
             <FontAwesomeIcon icon={faShoppingCart} className="Cart-icon ml-6" />
             <h1 className="mt-2">500.00</h1>
             <FontAwesomeIcon icon={faShoppingCart} className="Cart-icon" />
+=======
+            <FontAwesomeIcon icon={faShoppingCart} className="Cart-icon ml-6" 
+            onClick={()=> addToCart('')}
+            />
+>>>>>>> c4420a8 (installs Prop types and adds a cartview page)
           </div>
         </div>
         <div className="shadow mx-8 mb-4 py-4 w-56 rounded-lg">
@@ -48,9 +64,15 @@ function Tops() {
           <div className="icon-container flex flex-column items-center ml-10">
             <FontAwesomeIcon icon={faDollarSign} className="Dollar-icon" />
             <h1 className='mt-2 ml-6'>500.00</h1>
+<<<<<<< HEAD
             <FontAwesomeIcon icon={faShoppingCart} className="Cart-icon ml-6" />
             <h1 className="mt-2">500.00</h1>
             <FontAwesomeIcon icon={faShoppingCart} className="Cart-icon" />
+=======
+            <FontAwesomeIcon icon={faShoppingCart} className="Cart-icon ml-6" 
+            onClick={()=> addToCart('ladies-tops')}
+            />
+>>>>>>> c4420a8 (installs Prop types and adds a cartview page)
           </div>
         </div>
         <div className="pagination">

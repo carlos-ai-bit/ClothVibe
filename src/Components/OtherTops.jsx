@@ -14,7 +14,7 @@ function OtherTops() {
               <img src="src/Assets/images (7).jpeg" alt="" />
               <div className="icon-container flex flex-column items-center ml-10">
                 <FontAwesomeIcon icon={faDollarSign} className="Dollar-icon" />
-                <h1 className='mt-2 ml-6'>500.00</h1>
+                <h1 className='mt-2 ml-6'>1500.00</h1>
                 <FontAwesomeIcon icon={faShoppingCart} className="Cart-icon ml-6" />
               </div>
             </div>
@@ -26,7 +26,7 @@ function OtherTops() {
               <img src="src/Assets/images (6).jpeg" alt="" />
               <div className="icon-container flex flex-column items-center ml-10">
                 <FontAwesomeIcon icon={faDollarSign} className="Dollar-icon" />
-                <h1 className='mt-2 ml-6'>500.00</h1>
+                <h1 className='mt-2 ml-6'>800.00</h1>
                 <FontAwesomeIcon icon={faShoppingCart} className="Cart-icon ml-6" />
               </div>
             </div>

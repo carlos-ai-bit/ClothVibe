@@ -1,14 +1,16 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faShoppingCart, faHeart, faDollarSign } from "@fortawesome/free-solid-svg-icons";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
-
 import { Link } from "react-router-dom";
+<<<<<<< HEAD
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faShoppingCart,
   faHeart,
   faDollarSign,
 } from "@fortawesome/free-solid-svg-icons";
+=======
+>>>>>>> c4420a8 (installs Prop types and adds a cartview page)
 function Sweaters() {
   return (
     <form action="">
@@ -25,7 +27,6 @@ function Sweaters() {
             <FontAwesomeIcon icon={faShoppingCart} className="Cart-icon" />
           </div>
         </div>
-
         <div className="shadow mx-8 mb-4 py-4 w-56 rounded-lg ">
           <div>
             <FontAwesomeIcon icon={faHeart} className="Like-icon ml-48" />
@@ -37,7 +38,6 @@ function Sweaters() {
             <FontAwesomeIcon icon={faShoppingCart} className="Cart-icon" />
           </div>
         </div>
-
         <div className="shadow mx-8 mb-4 py-4 w-56 rounded-lg ">
           <div>
             <FontAwesomeIcon icon={faHeart} className="Like-icon ml-48" />

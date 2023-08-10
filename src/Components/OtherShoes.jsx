@@ -15,6 +15,7 @@ function OtherShoes() {
                 <FontAwesomeIcon icon={faDollarSign} className="Dollar-icon" />
                 <h1 className=' ml-6'>500.00</h1>
                 <FontAwesomeIcon icon={faShoppingCart} className="Cart-icon ml-6" />
+                
               </div>
             </div>
             <div className="shadow mx-8 mb-4 py-4 w-56 rounded-lg h-80">
