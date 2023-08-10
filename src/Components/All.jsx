@@ -1,5 +1,11 @@
 import ProductsView from "./ProductsView";
-import { sweaterData, shoesData, topsData, bagsData, underwearData } from "./SweaterData";
+import {
+  sweaterData,
+  shoesData,
+  topsData,
+  bagsData,
+  underwearData,
+} from "./SweaterData";
 function All() {
   const filterProductsByType = (productType) => {
     switch (productType) {
@@ -19,7 +25,10 @@ function All() {
   };
 
   const renderProduct = (product) => (
-    <div className="grid grid-cols-3 shadow mx-8 mb-4 py-4 w-56 rounded-lg" key={product.id}>
+    <div
+      className="grid grid-cols-3 shadow mx-8 mb-4 py-4 w-56 rounded-lg"
+      key={product.id}
+    >
       <img src={product.imageSrc} alt={product.name} />
     </div>
   );
@@ -38,12 +47,12 @@ function All() {
 }
 
 export default All;
-    <>
-      <div className="w-full h-full">
-        <img src="src/Assets/clothes asthetic.jpg" className="w-full h-full" />
-      </div>
-    </>
-  );
-}
+//     <>
+//       <div className="w-full h-full">
+//         <img src="src/Assets/clothes asthetic.jpg" className="w-full h-full" />
+//       </div>
+//     </>
+//   );
+// }
 
-export default All;
+// export default All;

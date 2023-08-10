@@ -1,14 +1,12 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faShoppingCart, faHeart, faDollarSign } from "@fortawesome/free-solid-svg-icons";
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
-
-import { Link } from "react-router-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faShoppingCart,
   faHeart,
   faDollarSign,
 } from "@fortawesome/free-solid-svg-icons";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 function Sweaters() {
   return (
     <form action="">
