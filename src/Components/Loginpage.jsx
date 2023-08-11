@@ -59,6 +59,7 @@ function Loginpage() {
           </h2>
         </div>
       </div>
+<<<<<<< HEAD
       </div>
 
 
@@ -70,3 +71,9 @@ function Loginpage() {
 
 export default Loginpage 
     
+=======
+    </div>
+  );
+}
+export default Loginpage;
+>>>>>>> origin
