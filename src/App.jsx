@@ -1,3 +1,6 @@
+import Loginpage from "./Components/Loginpage";
+import Signupage from "./Components/Signupage";
+import AddCart from "./Components/AddCart";
 /* eslint-disable no-unused-vars */
 import "./App.css";
 // import "react-tabs/style/react-tabs.css";
@@ -19,6 +22,19 @@ import Loginpage from "./Components/Loginpage";
 import Signupage from "./Components/Signupage";
 import AddCart from "./Components/AddCart";
 import HomePage from "./Components/HomePage";
+import All from "./Components/All";
+import UnderWear from "./Components/UnderWear";
+//import SlideOver from "./Components/SlideOver";
+function App() {
+  return (
+    <>
+            <Loginpage/> 
+       <Signupage/> 
+        {/*<AddCart/>*/}
+      <Routes>
+
+        <Route exact path="/" element={<HomePage />} />
+
 import Cartview from "./Components/Cartview";
 import Payment from "./Components/Payment";
 import ProjectsDescription from "./Components/ProjectsDescription";
@@ -45,6 +61,9 @@ function App() {
         <Route exact path="/tops" element={<Tops />} />
         <Route exact path="/bags" element={<Bags />} />
         <Route exact path="/UnderWear" element={<UnderWear />} />
+        <Route exact path="/AddCart" element={<AddCart />} />
+        <Route exact path="/Signupage" element={<Signupage />} />
+        <Route exact path="/Loginpage" element={<Loginpage />} />
         <Route exact path="/Cartview" element={<Cartview />} />
         <Route
           exact
