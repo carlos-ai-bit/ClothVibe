@@ -1,16 +1,11 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faShoppingCart, faHeart, faDollarSign } from "@fortawesome/free-solid-svg-icons";
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
-import { Link } from "react-router-dom";
-<<<<<<< HEAD
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faShoppingCart,
   faHeart,
   faDollarSign,
 } from "@fortawesome/free-solid-svg-icons";
-=======
->>>>>>> c4420a8 (installs Prop types and adds a cartview page)
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 function Sweaters() {
   return (
     <form action="">

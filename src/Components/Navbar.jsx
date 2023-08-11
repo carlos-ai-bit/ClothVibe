@@ -25,6 +25,7 @@ function Navbar() {
           </Tab>
         </TabList>
         </Tabs>
+        
     <div className="">
       <header className="bg-white shadow mx-8 mb-2 mt-8 py-2 rounded-lg  flex items-center justify-between">
         <div className="container mx-auto flex items-center justify-between pointer-events-auto">
@@ -53,6 +54,7 @@ function Navbar() {
         </div>
       </header>
     </div>
+</div>
   )
 }
 
