@@ -59,8 +59,14 @@ function Loginpage() {
           </h2>
         </div>
       </div>
-    </div>
-  );
-}
+      </div>
 
-export default Loginpage;
+
+  
+
+
+  )
+  }
+
+export default Loginpage 
+    
