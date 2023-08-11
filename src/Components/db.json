@@ -1,22 +1,28 @@
+
 {
   "sweaters": [
     {
       "id": 1,
       "name": "Cozy Sweater",
       "price": 39.99,
-      "imageSrc": "public/Assets/Sweater.jpg"
+      "imageSrc": "public/Assets/Sweater.jpg",
+      "details":"Fam locavore kickstarter distillery. Mixtape chillwave tumeric sriracha taximy chia microdosing tilde DIY. XOXO fam indxgo juiceramps cornhole raw denim forage brooklyn. Everyday carry +1 seitan poutine tumeric. Gastropub blue bottle austin listicle pour-over, neutra jean shorts keytar banjo tattooed umami cardigan"
     },
     {
       "id": 2,
       "name": "Cool Sweater",
       "price": 29.99,
-      "imageSrc": "public/Assets/Coolsweater.jpg"
+      "imageSrc": "public/Assets/Coolsweater.jpg",
+      "details":"Fam locavore kickstarter distillery. Mixtape chillwave tumeric sriracha taximy chia microdosing tilde DIY. XOXO fam indxgo juiceramps cornhole raw denim forage brooklyn. Everyday carry +1 seitan poutine tumeric. Gastropub blue bottle austin listicle pour-over, neutra jean shorts keytar banjo tattooed umami cardigan"
+
     },
     {
       "id": 3,
       "name": "Stylish Sweater",
       "price": 49.99,
-      "imageSrc": "public/Assets/Sweater2.jpg"
+      "imageSrc": "public/Assets/Sweater2.jpg",
+      "details":"Fam locavore kickstarter distillery. Mixtape chillwave tumeric sriracha taximy chia microdosing tilde DIY. XOXO fam indxgo juiceramps cornhole raw denim forage brooklyn. Everyday carry +1 seitan poutine tumeric. Gastropub blue bottle austin listicle pour-over, neutra jean shorts keytar banjo tattooed umami cardigan"
+
     }
   ]
 }
