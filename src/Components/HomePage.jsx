@@ -1,11 +1,47 @@
-import { RiSearchLine } from "react-icons/ri";
+// import { RiSearchLine } from "react-icons/ri";
 import { RiShoppingCart2Fill } from "react-icons/ri";
 import { useNavigate } from "react-router-dom";
+// import { useState } from "react";
+// import React from "react";
+// import { clothesData } from "./ClothesData";
 const HomePage = () => {
   const navigate = useNavigate();
-  function navigateClothes() {
+  function navigateHome() {
     navigate("/");
   }
+  function navigateClothes() {
+    navigate("/All");
+  }
+  function navigateShoes() {
+    navigate("/Shoes");
+  }
+  function navigateAccesories() {
+    navigate("/Accesories");
+  }
+  function navigateSweaters() {
+    navigate("/Sweaters");
+  }
+  function navigateUnderWear() {
+    navigate("/UnderWear");
+  }
+  function navigateTops() {
+    navigate("/Tops");
+  }
+  function navigateCartView() {
+    navigate("/CartView");
+  }
+  function navigateLoginpage() {
+    navigate("/Loginpage");
+  }
+  function navigateSignupage() {
+    navigate("/Signupage");
+  }
+  // function searchForm(e) {
+  //   e.preventDefault();
+  //   console.log(search);
+  //   const [search, setSearch] = useState("");
+  //   console.log(clothesData);
+  // }
   return (
     <div className="">
       <section>
@@ -13,7 +49,9 @@ const HomePage = () => {
           <div className="flex mt-1 mb-2">
             {" "}
             <h1 className="mx-2 mt-2">SAMORI.COM</h1>
-            <h1 className="text-blue-400 mx-2 mt-2">Home</h1>
+            <h1 onClick={navigateHome} className="text-blue-400 mx-2 mt-2">
+              Home
+            </h1>
             <h1>
               <select
                 className="mr-1 rounded-full text-center mt-3"
@@ -22,10 +60,14 @@ const HomePage = () => {
               >
                 <option value="">Category</option>
                 <option onClick={navigateClothes} value="clothes">
-                  <button className="bg-blue-900">Clohes</button>
+                  Clothes
                 </option>
-                <option value="shoes">Shoes</option>
-                <option value="accesories">Accesories</option>
+                <option onClick={navigateShoes} value="shoes">
+                  Shoes
+                </option>
+                <option onClick={navigateAccesories} value="accesories">
+                  Accesories
+                </option>
               </select>
             </h1>
             <h1>
@@ -35,11 +77,18 @@ const HomePage = () => {
                 id=""
               >
                 <option value=""> Our Products</option>
-                <option value="all">All</option>
-                <option value="sweaters">Sweaters</option>
-                <option value="tops">Tops</option>
-                <option value="tops">Under Wear</option>
-                <option value="tops">Tops</option>
+                <option onClick={navigateClothes} value="all">
+                  All
+                </option>
+                <option onClick={navigateSweaters} value="sweaters">
+                  Sweaters
+                </option>
+                <option onClick={navigateTops} value="tops">
+                  Tops
+                </option>
+                <option onClick={navigateUnderWear} value="tops">
+                  Under Wear
+                </option>
               </select>
             </h1>
             <a className="mx-1 mt-2" href="http://">
@@ -48,23 +97,43 @@ const HomePage = () => {
             <a className="mx-1 mt-2" href="http://">
               FAQ
             </a>
-            {/* <input
-              className="mx-1 rounded-md text-center border-2"
-              placeholder="Search"
-            ></input> */}
-            <RiSearchLine className="search-icon ml-6 mt-3" />
+            <form action="">
+              <input
+                // onChange={(e) => setSearch(e.target.value)}
+                className="mx-7 mt-1 rounded-md text-center border-2"
+                placeholder="Search"
+              >
+                {/* {clothesData
+                  .filter((allItem) =>
+                    allItem.clothing_type.toString().includes(search)
+                  )
+                  .map((item) =>(
+                    item.clothing_type
+                  ))} */}
+              </input>
+            </form>
+            {/* <RiSearchLine className="search-icon ml-6 mt-3" /> */}
             <RiShoppingCart2Fill className="search-icon mx-6 mt-3" />
-            <button className="mt-1 dark:hover:bg-blue-500 bg-blue-400 rounded-full text-center py-1 px-5">
+            <button
+              onClick={navigateCartView}
+              className="mt-1 dark:hover:bg-blue-500 bg-blue-400 rounded-full text-center py-1 px-5"
+            >
               Shop Now
             </button>
           </div>
         </div>
       </section>
       <div className="text-right">
-        <button className="mr-2 hover:bg-blue-100 dark:hover:bg-blue-500 bg-blue-400 rounded-md text-center py-2.5 px-5">
+        <button
+          onClick={navigateLoginpage}
+          className="mr-2 hover:bg-blue-100 dark:hover:bg-blue-500 bg-blue-400 rounded-md text-center py-2.5 px-5"
+        >
           Login
         </button>
-        <button className="ml-3 mr-5  dark:hover:bg-blue-500 bg-blue-400 rounded-md text-center py-2.5 px-5">
+        <button
+          onClick={navigateSignupage}
+          className="ml-3 mr-5  dark:hover:bg-blue-500 bg-blue-400 rounded-md text-center py-2.5 px-5"
+        >
           Sign Up
         </button>
       </div>
@@ -105,5 +174,4 @@ const HomePage = () => {
     </div>
   );
 };
-
 export default HomePage;
