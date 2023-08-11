@@ -45,7 +45,7 @@ function Signupage  ()  {
                               <input
                                id="email" 
                                name="email" 
-                               type="email"
+                               type="password"
                                placeholder="Password*" 
                                required 
                                 className="block  w-full px-2 rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset  ring-blue-500  placeholder:text-gray-40 focus:ring-2 focus:ring-inset  focus:ring-blue-600 sm:text-sm sm:leading-6" />
@@ -54,8 +54,9 @@ function Signupage  ()  {
       
 
                           <div className="mt-2">
-                              <input id="email" name="email" type="email" placeholder="Confirm Password*" required className="block w-full px-2 rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-blue-500 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:text-sm sm:leading-6" />
+                              <input id="email" name="email" type="password" placeholder="Confirm Password*" required className="block w-full px-2 rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-blue-500 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:text-sm sm:leading-6" />
                           </div>
+                          
                       </div>
 
 
@@ -64,9 +65,10 @@ function Signupage  ()  {
                           <button type="submit" className="flex w-full justify-center rounded-md bg-blue-500 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Continue</button>
                       </div>
                   </form>
-                  <div>
-                      <h2 className="mt-10 text-center text-2l font-medium leading-9 tracking-tight text-gray-900">For further support you may visit the Help center or contact our customer service team.</h2>
-                  </div>
+                  <p className="mt-10 text-center text-sm text-gray-500">
+      Have an account?
+      <a href="#" className="font-semibold leading-6 text-indigo-600 hover:text-indigo-500">Sign In</a>
+    </p>
               
           </div></>
   );

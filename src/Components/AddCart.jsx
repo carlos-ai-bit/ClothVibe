@@ -1,9 +1,11 @@
 
 
 function AddCart  ()  {
-  return (
-        <div className="relative z-10" aria-labelledby="slide-over-title" role="dialog" aria-modal="true">
 
+  return (
+        <div className="relative z-10  ease-in-out duration-500 " aria-labelledby="slide-over-title" role="dialog" aria-modal="true">
+          
+      
         <div className="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity"></div>
         <div className="fixed inset-0 overflow-hidden">
         <div className="absolute inset-0 overflow-hidden">
@@ -14,7 +16,7 @@ function AddCart  ()  {
           <div className="flex h-full flex-col overflow-y-scroll bg-white shadow-xl">
             <div className="flex-1 overflow-y-auto px-4 py-6 sm:px-6">
               <div className="flex items-start justify-between">
-                <h2 className="text-lg font-medium text-gray-900" id="slide-over-title">My cart</h2>
+                <h2 className="text-lg font-medium text-gray-900" id="slide-over-title">My Cart</h2>
                 <div className="ml-3 flex h-7 items-center">
                   <button type="button" className="relative -m-2 p-2 text-gray-400 hover:text-gray-500">
                     <span className="absolute -inset-0.5"></span>
