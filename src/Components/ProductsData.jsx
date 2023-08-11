@@ -1,130 +1,148 @@
-export const sweaterData = [
+export const products = [
 {
     id: 1,
     name: 'Cozy Sweater',
     price:" Ksh500",
     imageSrc: 'src/Assets/Sweater.jpg',
+    category: "sweater"
   },
   {
     id: 2,
     name: 'Cool Sweater',
     price: "KSh500",
     imageSrc: 'src/Assets/Coolsweater.jpg',
+    category: "sweater"
   },
   {
     id: 3,
     name: 'Stylish Sweater',
     price: "KSh500",
     imageSrc: 'src/Assets/Sweater2.jpg',
+    category: "sweater"
   },
 
-];
-
-
-export const topsData = [
   {
-      id: 1,
+      id: 4,
       name: 'Cozy Sweater',
       price:" Ksh500",
       imageSrc: 'src/Assets/Sweater.jpg',
+      category: "sweater"
     },
     {
-      id: 2,
+      id: 5,
       name: 'Cool Sweater',
       price: "KSh500",
       imageSrc: 'src/Assets/Coolsweater.jpg',
+      category: "sweater"
     },
     {
-      id: 3,
+      id: 6,
       name: 'Stylish Sweater',
       price: "KSh500",
       imageSrc: 'src/Assets/Sweater2.jpg',
+      category: "sweater"
     },
-  
-  ];
-  
 
-
-
-export const shoesData = [
   {
-    id: 1,
+    id: 7,
     name: '',
     price:" Ksh500",
     imageSrc: 'src/Assets/Adiddas.jpg',
+    category: "shoes"
   },
   {
-    id: 2,
+    id: 8,
     name: 'Canvas',
     price: "KSh500",
     imageSrc: 'src/Assets/Canvas.jpg',
+    category: "shoes"
   },
   {
-    id: 3,
+    id: 9,
     name: '',
     price: "KSh500",
     imageSrc: 'src/Assets/black shoes.jpeg',
+    category: "shoes"
   },
 
-];
-
-
-export const underwearData = [
   {
-    id: 1,
+    id: 10,
     name: '',
     price:" Ksh500",
     imageSrc: 'src/Assets/under wear.jpeg',
+    category: "underwear"
   },
   {
-    id: 2,
+    id: 11,
     name: '',
     price: "KSh500",
     imageSrc: 'src/Assets/red inner.webp',
+    category: "underwear"
   },
   {
-    id: 3,
+    id: 12,
     name: 'Stylish Sweater',
     price: "KSh500",
     imageSrc: 'src/Assets/innerblue.jpeg',
-    name: "Cozy Sweater",
-    price: 500.0,
-    imageSrc: "src/Assets/Sweater.jpg",
+    category: "underwear"
+    
   },
   {
-    id: 2,
+    id: 13,
     name: "Cool Sweater",
     price: 500.0,
     imageSrc: "src/Assets/Coolsweater.jpg",
+    category: "sweater"
   },
   {
-    id: 3,
+    id: 14,
     name: "Stylish Sweater",
     price: 500.0,
     imageSrc: "src/Assets/Sweater2.jpg",
+    category: "sweater"
   },
 
-];
-
-
-export const bagsData = [
   {
-    id: 1,
+    id: 15,
     name: '',
     price:" Ksh500",
     imageSrc: 'src/Assets/bag pack.jpeg',
+    category: "bag"
   },
   {
-    id: 2,
+    id: 16,
     name: '',
     price: "KSh500",
     imageSrc: 'src/Assets/bag.jpg',
+    category: "bag"
   },
   {
-    id: 3,
+    id: 17,
     name: '',
     price: "KSh500",
     imageSrc: 'src/Assets/ybag.jpg',
+    category: "bag"
+  },
+  {
+    id: 15,
+    name: '',
+    price:" Ksh500",
+    imageSrc:'src/Assets/18149619_0_ladies-tops.webp',
+    category: "tops"
+  },
+  {
+    id: 16,
+    name: '',
+    price: "KSh500",
+    imageSrc: 'src/Assets/images rep.jpeg',
+    category: "tops"
+  },
+  {
+    id: 17,
+    name: '',
+    price: "KSh500",
+    imageSrc: 'src/Assets/images rep.jpeg',
+    category: "tops"
   },
 
 ];
