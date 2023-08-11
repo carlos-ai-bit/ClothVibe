@@ -18,27 +18,12 @@ import OtherTops from "./Components/OtherTops";
 import OtherShoes from "./Components/OtherShoes";
 import OtherBags from "./Components/Bags";
 import Footer from "./Components/Footer";
-import Loginpage from "./Components/Loginpage";
-import Signupage from "./Components/Signupage";
-import AddCart from "./Components/AddCart";
 import HomePage from "./Components/HomePage";
-import All from "./Components/All";
-import UnderWear from "./Components/UnderWear";
-//import SlideOver from "./Components/SlideOver";
-function App() {
-  return (
-    <>
-            <Loginpage/> 
-       <Signupage/> 
-        {/*<AddCart/>*/}
-      <Routes>
-
-        <Route exact path="/" element={<HomePage />} />
-
 import Cartview from "./Components/Cartview";
 import Payment from "./Components/Payment";
 import ProjectsDescription from "./Components/ProjectsDescription";
 // import ImageList from "./Components/ClothesData";
+//import SlideOver from "./Components/SlideOver";
 function App() {
   return (
     <>
