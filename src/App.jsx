@@ -13,7 +13,7 @@
 // import HomePage from "./Components/HomePage";
 // import All from "./Components/All";
 // import UnderWear from "./Components/UnderWear";
-// import Cartview from "./Components/Cartview";
+// import AddCart from "./Components/AddCart";
 // import Payment from "./Components/Payment";
 // import ProjectsDescription from "./Components/ProjectsDescription";
 import "react-tabs/style/react-tabs.css";
@@ -41,7 +41,7 @@ export default App;
 // <Route exact path="/Loginpage" element={<Loginpage />} />
 // <Route exact path="/Signupage" element={<Signupage />} />
 {
-  /* <Route exact path="/AddCart" element={<AddCart />} /> */
+  //  <Route exact path="/AddCart" element={<AddCart />} /> 
 }
 {
   /* <Route exact path="/Footer" element={<Footer />} /> */
