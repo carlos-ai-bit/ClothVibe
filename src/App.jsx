@@ -5,7 +5,7 @@ import AddCart from "./Components/AddCart";
 import "./App.css";
 // import "react-tabs/style/react-tabs.css";
 import { Route, Routes } from "react-router-dom";
-// import Navbar from "./Components/Navbar";
+import Navbar from "./Components/Navbar";
 import All from "./Components/All";
 import Sweaters from "./Components/Sweaters";
 import Tops from "./Components/Tops";
@@ -19,13 +19,11 @@ import OtherShoes from "./Components/OtherShoes";
 import OtherBags from "./Components/Bags";
 import Footer from "./Components/Footer";
 import HomePage from "./Components/HomePage";
-//import SlideOver from "./Components/SlideOver";
-
 import Cartview from "./Components/Cartview";
 import Payment from "./Components/Payment";
-import ProjectsDescription from "./Components/ProjectsDescription";
+// import ProjectsDescription from "./Components/ProjectsDescription";
 // import ImageList from "./Components/ClothesData";
-//import SlideOver from "./Components/SlideOver";
+import SlideOver from "./Components/SlideOver";
 function App() {
   return (
     <>
@@ -35,11 +33,12 @@ function App() {
         <Route exact path="/" element={<HomePage />} />{" "}
         <Route exact path="/Loginpage" element={<Loginpage />} />
         <Route exact path="/Signupage" element={<Signupage />} />
-        {/* <Route exact path="/AddCart" element={<AddCart />} /> */}
+        <Route exact path="/AddCart" element={<AddCart />} />
         <Route exact path="/" element={<HomePage />} />{" "}
         <Route exact path="/Loginpage" element={<Loginpage />} />
         <Route exact path="/Signupage" element={<Signupage />} />
         <Route exact path="/Footer" element={<Footer />} />
+        <Route exact path="/SlideOver" element={<SlideOver />} />
         {/* <Route exact path="/payment" element={<Payment />} /> */}
         <Route exact path="/all" element={<All />} />
         <Route exact path="/sweaters" element={<Sweaters />} />
@@ -50,10 +49,8 @@ function App() {
         <Route exact path="/AddCart" element={<AddCart />} />
         <Route exact path="/Signupage" element={<Signupage />} />
         <Route exact path="/Loginpage" element={<Loginpage />} />
-        {/* <Route exact path="/Cartview" element={<Cartview />} /> */}
+        {<Route exact path="/Cartview" element={<Cartview />} />}
         {/* <Route
-        <Route exact path="/Cartview" element={<Cartview />} />
-        <Route
           exact
           path="/projectsDescription"
           element={<ProjectsDescription />}

@@ -137,7 +137,9 @@ const HomePage = () => {
           Sign Up
         </button>
       </div>
+
       <h3 className="font-bold text-center mb-6">BEST TRENDY OUTFIT</h3>
+
       <div className="flex">
         {" "}
         <img
@@ -174,4 +176,5 @@ const HomePage = () => {
     </div>
   );
 };
+
 export default HomePage;
