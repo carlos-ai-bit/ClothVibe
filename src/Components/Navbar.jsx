@@ -1,7 +1,8 @@
-/* eslint-disable no-unused-vars */
+
 import { useState } from "react";
 
 import Products from "./Products";
+
 function Navbar() {
   const [toggleState, setToggleState] = useState("all");
 
@@ -16,25 +17,30 @@ function Navbar() {
         >
           All
         </div>
-        <div className={toggleState === "sweaters" ? "border border-blue-600 " : "tabs"} onClick={() => setToggleState("sweaters")}>
+        <div className={toggleState === "sweaters" ? "border border-blue-600 " : "tabs"}
+         onClick={() => setToggleState("sweaters")}>
           Sweaters
         </div>
-        <div className={toggleState === "shoes" ? "border border-blue-600" : "tabs"}  onClick={() => setToggleState("shoes")}>
+        <div className={toggleState === "shoes" ? "border border-blue-600" : "tabs"} 
+         onClick={() => setToggleState("shoes")}>
           Shoes
         </div>
-        <div className={toggleState === "tops" ? "border border-blue-600" : "tabs"}  onClick={() => setToggleState("tops")}>
+        <div className={toggleState === "tops" ? "border border-blue-600" : "tabs"} 
+         onClick={() => setToggleState("tops")}>
           Tops
         </div>
         
         <div
-          className={toggleState === "underwear" ? "border border-blue-600" : "tabs"}
-          onClick={() => setToggleState("underwear")}
+          className={toggleState === "inner Wears" ? "border border-blue-600" : "tabs"}
+          onClick={() => setToggleState("inner Wears")}
+       
         >
-          UnderWears
+         inner Wears
         </div>
         <div
           className={toggleState === "bag" ? "border border-blue-600" : "tabs"}
           onClick={() => setToggleState("bag")}
+
         >
           Bags
         </div>
@@ -47,7 +53,7 @@ function Navbar() {
               toggleState === "all" ? "flex flex-wrap justify-center items-center" : "hidden"
             }
           >
-         
+      
             <Products category="all"/>
           </div>
           <div
@@ -74,9 +80,9 @@ function Navbar() {
           </div>
           <div
             className={
-              toggleState === "underwear"? "flex flex-wrap justify-center items-center":"hidden"
+              toggleState === "inner Wears"? "flex flex-wrap justify-center items-center":"hidden"
             }>
-            <Products category="underwear"/>
+            <Products category="inner Wears"/>
           </div>
           <div
             className={

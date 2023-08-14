@@ -10,7 +10,7 @@ export const products = [
     id: 2,
     name: 'Cool Sweater',
     price: "KSh500",
-    imageSrc: 'src/Assets/Coolsweater.jpg',
+    imageSrc: 'src/Assets/istockphoto.jpg',
     category: "sweater"
   },
   {
@@ -25,21 +25,22 @@ export const products = [
       id: 4,
       name: 'Cozy Sweater',
       price:" Ksh500",
-      imageSrc: 'src/Assets/Sweater.jpg',
+      imageSrc: 'src/Assets/istocksweater.jpg',
       category: "sweater"
     },
     {
       id: 5,
       name: 'Cool Sweater',
       price: "KSh500",
-      imageSrc: 'src/Assets/Coolsweater.jpg',
+      imageSrc: 'src/Assets/pullover.jpg',
       category: "sweater"
     },
     {
       id: 6,
       name: 'Stylish Sweater',
       price: "KSh500",
-      imageSrc: 'src/Assets/Sweater2.jpg',
+      imageSrc: 'src/Assets/buttoned.jpg',
+
       category: "sweater"
     },
 
@@ -70,35 +71,35 @@ export const products = [
     name: '',
     price:" Ksh500",
     imageSrc: 'src/Assets/under wear.jpeg',
-    category: "underwear"
+    category: "inner Wears"
   },
   {
     id: 11,
     name: '',
     price: "KSh500",
     imageSrc: 'src/Assets/red inner.webp',
-    category: "underwear"
+    category: "inner Wears"
   },
   {
     id: 12,
     name: 'Stylish Sweater',
     price: "KSh500",
     imageSrc: 'src/Assets/innerblue.jpeg',
-    category: "underwear"
+    category: "inner Wears"
     
   },
   {
     id: 13,
     name: "Cool Sweater",
-    price: 500.0,
+    price: " Ksh500",
     imageSrc: "src/Assets/Coolsweater.jpg",
     category: "sweater"
   },
   {
     id: 14,
     name: "Stylish Sweater",
-    price: 500.0,
-    imageSrc: "src/Assets/Sweater2.jpg",
+    price: " Ksh500",
+    imageSrc: "src/Assets/crochet.jpg",
     category: "sweater"
   },
 
