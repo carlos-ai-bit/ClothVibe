@@ -42,6 +42,7 @@ function App() {
         <Route exact path="/Loginpage" element={<Loginpage />} />
         <Route exact path="/Signupage" element={<Signupage />} />
         <Route exact path="/AddCart" element={<AddCart />} />
+        <Route exact path="/" element={<HomePage />} />
         <Route exact path="/" element={<HomePage />} />{" "}
         <Route exact path="/Loginpage" element={<Loginpage />} />
         <Route exact path="/Signupage" element={<Signupage />} />
