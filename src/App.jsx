@@ -1,6 +1,11 @@
 import Loginpage from "./Components/Loginpage";
 import Signupage from "./Components/Signupage";
 import AddCart from "./Components/AddCart";
+// src/main.js
+import 'tailwindcss/tailwind.css';
+import '@fortawesome/fontawesome-free/css/all.css'; 
+
+
 /* eslint-disable no-unused-vars */
 import "./App.css";
 // import "react-tabs/style/react-tabs.css";
@@ -20,7 +25,7 @@ import OtherBags from "./Components/Bags";
 import Footer from "./Components/Footer";
 import HomePage from "./Components/HomePage";
 //import SlideOver from "./Components/SlideOver";
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Cartview from "./Components/Cartview";
 import Payment from "./Components/Payment";
 import ProjectsDescription from "./Components/ProjectsDescription";

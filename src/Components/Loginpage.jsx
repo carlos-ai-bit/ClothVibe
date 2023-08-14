@@ -59,21 +59,7 @@ function Loginpage() {
           </h2>
         </div>
       </div>
-<<<<<<< HEAD
-      </div>
-
-
-  
-
-
-  )
-  }
-
-export default Loginpage 
-    
-=======
     </div>
   );
 }
 export default Loginpage;
->>>>>>> origin
