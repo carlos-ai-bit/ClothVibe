@@ -19,16 +19,13 @@ import OtherShoes from "./Components/OtherShoes";
 import OtherBags from "./Components/Bags";
 import Footer from "./Components/Footer";
 import HomePage from "./Components/HomePage";
-<<<<<<< HEAD
 //import SlideOver from "./Components/SlideOver";
 
-=======
 import Cartview from "./Components/Cartview";
 import Payment from "./Components/Payment";
 import ProjectsDescription from "./Components/ProjectsDescription";
 // import ImageList from "./Components/ClothesData";
 //import SlideOver from "./Components/SlideOver";
->>>>>>> origin
 function App() {
   return (
     <>
@@ -53,13 +50,10 @@ function App() {
         <Route exact path="/AddCart" element={<AddCart />} />
         <Route exact path="/Signupage" element={<Signupage />} />
         <Route exact path="/Loginpage" element={<Loginpage />} />
-<<<<<<< HEAD
         {/* <Route exact path="/Cartview" element={<Cartview />} /> */}
         {/* <Route
-=======
         <Route exact path="/Cartview" element={<Cartview />} />
         <Route
->>>>>>> origin
           exact
           path="/projectsDescription"
           element={<ProjectsDescription />}
