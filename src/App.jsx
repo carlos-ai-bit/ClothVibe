@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import "./App.css";
 import Footer from "./Components/Footer";
 import Loginpage from "./Components/Loginpage";
@@ -35,4 +36,22 @@ function App() {
   );
 }
 
+=======
+// import Navbar from "./Components/Navbar";
+// import Shoes from "./Components/Shoes";
+// import Sweaters from "./Components/Sweaters";
+// import Tops from "./Components/Tops";
+// import Bags from "./Components/Bags";
+function App() {
+  return (
+    <>
+      {/* <Navbar />
+      <Sweaters/>
+      <Shoes/>
+      <Tops/>
+      <Bags/> */}
+    </>
+  );
+}
+>>>>>>> f289baa3dd1dda71316676f74dcdde41059e29e1
 export default App;
