@@ -1,36 +1,100 @@
 
+import { useState } from "react";
+
+import Products from "./Products";
 
 function Navbar() {
+  const [toggleState, setToggleState] = useState("all");
+
   return (
-    <div className=''>
-      <header className="bg-white shadow mx-8 mb-2 mt-8 py-2 rounded-lg  flex items-center justify-between">
-        <div className="container mx-auto flex items-center justify-between pointer-events-auto">
-            <nav className="rounded-lg ">
-                <ul className="flex space-x-8 mt items-center justify-between ml-60">
-                    <li className="font-medium p-4 flex text-black">
-                        All
-                    </li>
-                    <li className="text-blue-500 font-medium p-4 flex">
-                      Sweaters
-                    </li>
-                    <li className="font-medium p-4 flex text-black hover:text-blue-500">
-                      Shoes
-                    </li>
-                    <li className="font-medium p-4 flex text-black  hover:text-blue-500" >
-                      Tops
-                    </li>
-                    <li className="font-medium p-4 flex text-black  hover:text-blue-500">
-                      Under Wear
-                    </li>
-                    <li className="font-medium p-4 flex text-black  hover:text-blue-500" >
-                    Bags
-                    </li>
-                </ul>
-            </nav>
+    <div className="">
+      <div className="">
+      <div className="Container bg-white shadow mx-2 mb-2 mt-8 py-2 rounded-lg  flex items-center justify-around fle-wrap">
+
+        <div
+          className={toggleState === "all" ? "border border-blue-600" : "tabs"}
+          onClick={() => setToggleState("all")}
+        >
+          All
         </div>
-        </header>  
+        <div className={toggleState === "sweaters" ? "border border-blue-600 " : "tabs"}
+         onClick={() => setToggleState("sweaters")}>
+          Sweaters
+        </div>
+        <div className={toggleState === "shoes" ? "border border-blue-600" : "tabs"} 
+         onClick={() => setToggleState("shoes")}>
+          Shoes
+        </div>
+        <div className={toggleState === "tops" ? "border border-blue-600" : "tabs"} 
+         onClick={() => setToggleState("tops")}>
+          Tops
+        </div>
+        
+        <div
+          className={toggleState === "inner Wears" ? "border border-blue-600" : "tabs"}
+          onClick={() => setToggleState("inner Wears")}
+       
+        >
+         inner Wears
+        </div>
+        <div
+          className={toggleState === "bag" ? "border border-blue-600" : "tabs"}
+          onClick={() => setToggleState("bag")}
+
+        >
+          Bags
+        </div>
+        </div>
+        {/* displayed content */}
+
+        <div className="content-tabs">
+          <div
+            className={
+              toggleState === "all" ? "flex flex-wrap justify-center items-center" : "hidden"
+            }
+          >
+      
+            <Products category="all"/>
+          </div>
+          <div
+            className={
+              toggleState === "sweaters" ? "flex flex-wrap justify-center items-center" : "hidden"
+            }
+          >
+            <Products category="sweater"/>
+
+          </div>
+          <div
+            className={
+              toggleState === "shoes" ? "flex flex-wrap justify-center items-center" : "hidden"
+            }
+          >
+            <Products category="shoes"/>
+          </div>
+          <div
+            className={
+              toggleState === "tops" ? "flex flex-wrap justify-center items-center" : "hidden"
+            }
+          >
+             <Products category="tops"/>
+          </div>
+          <div
+            className={
+              toggleState === "inner Wears"? "flex flex-wrap justify-center items-center":"hidden"
+            }>
+            <Products category="inner Wears"/>
+          </div>
+          <div
+            className={
+              toggleState === "bag" ? "flex flex-wrap justify-center items-center" : "hidden"
+            }
+          >
+            <Products category="bag"/>
+          </div>
+        </div>
+      </div>
     </div>
-  )
+  );
 }
 
-export default Navbar
+export default Navbar;
