@@ -2,10 +2,8 @@ import Loginpage from "./Components/Loginpage";
 import Signupage from "./Components/Signupage";
 import AddCart from "./Components/AddCart";
 // src/main.js
-import 'tailwindcss/tailwind.css';
-import '@fortawesome/fontawesome-free/css/all.css'; 
-
-
+import "tailwindcss/tailwind.css";
+import '@fortawesome/fontawesome-free/css/all.css';
 /* eslint-disable no-unused-vars */
 import "./App.css";
 // import "react-tabs/style/react-tabs.css";
@@ -24,14 +22,12 @@ import OtherShoes from "./Components/OtherShoes";
 import OtherBags from "./Components/Bags";
 import Footer from "./Components/Footer";
 import HomePage from "./Components/HomePage";
-
 //import SlideOver from "./Components/SlideOver";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Cartview from "./Components/Cartview";
 import Payment from "./Components/Payment";
 // import ProjectsDescription from "./Components/ProjectsDescription";
 // import ImageList from "./Components/ClothesData";
-import SlideOver from "./Components/SlideOver";
 function App() {
   return (
     <>
@@ -47,7 +43,7 @@ function App() {
         <Route exact path="/Loginpage" element={<Loginpage />} />
         <Route exact path="/Signupage" element={<Signupage />} />
         <Route exact path="/Footer" element={<Footer />} />
-        <Route exact path="/SlideOver" element={<SlideOver />} />
+        {/* <Route exact path="/SlideOver" element={<SlideOver />} /> */}
         {/* <Route exact path="/payment" element={<Payment />} /> */}
         <Route exact path="/all" element={<All />} />
         <Route exact path="/sweaters" element={<Sweaters />} />
