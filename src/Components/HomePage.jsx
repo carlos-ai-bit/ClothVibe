@@ -1,5 +1,5 @@
 // import { RiSearchLine } from "react-icons/ri";
-import { RiShoppingCart2Fill } from "react-icons/ri";
+// import { RiShoppingCart2Fill } from "react-icons/ri";
 import { useNavigate } from "react-router-dom";
 // import { useState } from "react";
 // import React from "react";
@@ -97,26 +97,20 @@ const HomePage = () => {
             <a className="mx-1 mt-2" href="http://">
               FAQ
             </a>
-            <form action="">
+            {/* <form action="">
               <input
                 // onChange={(e) => setSearch(e.target.value)}
                 className="mx-7 mt-1 rounded-md text-center border-2"
                 placeholder="Search"
               >
-                {/* {clothesData
-                  .filter((allItem) =>
-                    allItem.clothing_type.toString().includes(search)
-                  )
-                  .map((item) =>(
-                    item.clothing_type
-                  ))} */}
+                
               </input>
-            </form>
+            </form> */}
             {/* <RiSearchLine className="search-icon ml-6 mt-3" /> */}
-            <RiShoppingCart2Fill className="search-icon mx-6 mt-3" />
+            {/* <RiShoppingCart2Fill className="search-icon mx-6 mt-3" /> */}
             <button
               onClick={navigateCartView}
-              className="mt-1 dark:hover:bg-blue-500 bg-blue-400 rounded-full text-center py-1 px-5"
+              className="ml-9 mt-1 dark:hover:bg-blue-500 bg-blue-400 rounded-full text-center py-1 px-5"
             >
               Shop Now
             </button>
