@@ -5,7 +5,7 @@ const Footer = () => {
         <img
           src="https://i.pinimg.com/236x/83/0e/f6/830ef61c793532145298d984f1c66131.jpg"
           alt="Logo"
-          className="h-20 mb-8"
+          className="h-20 w-20 mb-8"
         />
         <div className="flex space-x-4">
           <a href="#" className="hover:text-gray-400">
@@ -23,7 +23,7 @@ const Footer = () => {
           <input
             type="email"
             placeholder="Subscribe to our newsletter"
-            className="px-4 py-2 w-60 border rounded-l-lg focus:outline-none"
+            className="px-4 py-2 w-60 border rounded-l-lg focus:outline-none text-black"
           />
           <button className="bg-blue-500 px-4 py-2 rounded-r-lg hover:bg-blue-600 focus:outline-none">
             Subscribe
