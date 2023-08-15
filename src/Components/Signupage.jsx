@@ -11,7 +11,7 @@ function Signupage() {
         <div className="sm:mx-auto sm:w-full sm:max-w-sm">
           <img
             className="mx-auto h-20 w-20"
-            src="src/images/7938113.jpg"
+            src="https://i.pinimg.com/236x/83/0e/f6/830ef61c793532145298d984f1c66131.jpg"
             alt="Logo"
           />
           <h2 className="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900">
