@@ -1,4 +1,4 @@
-// import React from 'react'
+
 
 const Cartview = () => {
   return (
@@ -25,24 +25,7 @@ const Cartview = () => {
 
                   <div className="flex justify-center">
                     <div className="absolute bottom-4 transition duration-500 ease-in-out opacity-0 group-hover:opacity-100">
-                      <a
-                        href="#"
-                        className="bg-gray-700 px-3 py-3 hover:bg-red-500 transition duration-300 ease-in-out"
-                      >
-                        <i className="fas fa-shopping-cart transition duration-300 ease-in-out flex justify-center items-center text-gray-100"></i>
-                      </a>
-                      <a
-                        href="#"
-                        className="bg-gray-700 px-3 py-3 hover:bg-red-500 transition duration-300 ease-in-out"
-                      >
-                        <i className="fas fa-random transition duration-300 ease-in-out flex justify-center items-center text-gray-100"></i>
-                      </a>
-                      <a
-                        href="#"
-                        className="bg-gray-700 px-3 py-3 hover:bg-red-500 transition duration-300 ease-in-out"
-                      >
-                        <i className="fas fa-search transition duration-300 ease-in-out flex justify-center items-center text-gray-100"></i>
-                      </a>
+                     
                       <a
                         href="#"
                         className="bg-gray-700 px-3 py-3 hover:bg-red-500 transition duration-300 ease-in-out"
@@ -73,6 +56,10 @@ const Cartview = () => {
                       $4500.00
                     </p>
                   </div>
+                  <button class="group relative h-12 w-48 overflow-hidden rounded-2xl bg-blue-500 text-lg font-bold text-white">
+    BUY NOW
+    <div class="absolute inset-0 h-full w-full scale-0 rounded-2xl transition-all duration-300 group-hover:scale-100 group-hover:bg-white/30"></div>
+  </button>
                 </div>
               </div>
             </div>
@@ -91,24 +78,7 @@ const Cartview = () => {
 
                   <div className="flex justify-center">
                     <div className="absolute bottom-4 transition duration-500 ease-in-out opacity-0 group-hover:opacity-100">
-                      <a
-                        href="#"
-                        className="bg-gray-700 px-3 py-3 hover:bg-red-500 transition duration-300 ease-in-out"
-                      >
-                        <i className="fas fa-shopping-cart transition duration-300 ease-in-out flex justify-center items-center text-gray-100"></i>
-                      </a>
-                      <a
-                        href="#"
-                        className="bg-gray-700 px-3 py-3 hover:bg-red-500 transition duration-300 ease-in-out"
-                      >
-                        <i className="fas fa-random transition duration-300 ease-in-out flex justify-center items-center text-gray-100"></i>
-                      </a>
-                      <a
-                        href="#"
-                        className="bg-gray-700 px-3 py-3 hover:bg-red-500 transition duration-300 ease-in-out"
-                      >
-                        <i className="fas fa-search transition duration-300 ease-in-out flex justify-center items-center text-gray-100"></i>
-                      </a>
+                     
                       <a
                         href="#"
                         className="bg-gray-700 px-3 py-3 hover:bg-red-500 transition duration-300 ease-in-out"
@@ -139,6 +109,10 @@ const Cartview = () => {
                       $3500.00
                     </p>
                   </div>
+                  <button class="group relative h-12 w-48 overflow-hidden rounded-2xl bg-blue-500 text-lg font-bold text-white">
+    BUY NOW
+    <div class="absolute inset-0 h-full w-full scale-0 rounded-2xl transition-all duration-300 group-hover:scale-100 group-hover:bg-white/30"></div>
+  </button>
                 </div>
               </div>
             </div>
@@ -157,24 +131,7 @@ const Cartview = () => {
 
                   <div className="flex justify-center">
                     <div className="absolute bottom-4 transition duration-500 ease-in-out opacity-0 group-hover:opacity-100">
-                      <a
-                        href="#"
-                        className="bg-gray-700 px-3 py-3 hover:bg-red-500 transition duration-300 ease-in-out"
-                      >
-                        <i className="fas fa-shopping-cart transition duration-300 ease-in-out flex justify-center items-center text-gray-100"></i>
-                      </a>
-                      <a
-                        href="#"
-                        className="bg-gray-700 px-3 py-3 hover:bg-red-500 transition duration-300 ease-in-out"
-                      >
-                        <i className="fas fa-random transition duration-300 ease-in-out flex justify-center items-center text-gray-100"></i>
-                      </a>
-                      <a
-                        href="#"
-                        className="bg-gray-700 px-3 py-3 hover:bg-red-500 transition duration-300 ease-in-out"
-                      >
-                        <i className="fas fa-search transition duration-300 ease-in-out flex justify-center items-center text-gray-100"></i>
-                      </a>
+                     
                       <a
                         href="#"
                         className="bg-gray-700 px-3 py-3 hover:bg-red-500 transition duration-300 ease-in-out"
@@ -205,6 +162,10 @@ const Cartview = () => {
                       $500.00
                     </p>
                   </div>
+                  <button class="group relative h-12 w-48 overflow-hidden rounded-2xl bg-blue-500 text-lg font-bold text-white">
+    BUY NOW
+    <div class="absolute inset-0 h-full w-full scale-0 rounded-2xl transition-all duration-300 group-hover:scale-100 group-hover:bg-white/30"></div>
+  </button>
                 </div>
               </div>
             </div>
@@ -225,24 +186,7 @@ const Cartview = () => {
 
                   <div className="flex justify-center">
                     <div className="absolute bottom-4 transition duration-500 ease-in-out opacity-0 group-hover:opacity-100">
-                      <a
-                        href="#"
-                        className="bg-gray-700 px-3 py-3 hover:bg-red-500 transition duration-300 ease-in-out"
-                      >
-                        <i className="fas fa-shopping-cart transition duration-300 ease-in-out flex justify-center items-center text-gray-100"></i>
-                      </a>
-                      <a
-                        href="#"
-                        className="bg-gray-700 px-3 py-3 hover:bg-red-500 transition duration-300 ease-in-out"
-                      >
-                        <i className="fas fa-random transition duration-300 ease-in-out flex justify-center items-center text-gray-100"></i>
-                      </a>
-                      <a
-                        href="#"
-                        className="bg-gray-700 px-3 py-3 hover:bg-red-500 transition duration-300 ease-in-out"
-                      >
-                        <i className="fas fa-search transition duration-300 ease-in-out flex justify-center items-center text-gray-100"></i>
-                      </a>
+                     
                       <a
                         href="#"
                         className="bg-gray-700 px-3 py-3 hover:bg-red-500 transition duration-300 ease-in-out"
@@ -273,6 +217,10 @@ const Cartview = () => {
                       $2000.00
                     </p>
                   </div>
+                  <button class="group relative h-12 w-48 overflow-hidden rounded-2xl bg-blue-500 text-lg font-bold text-white">
+    BUY NOW
+    <div class="absolute inset-0 h-full w-full scale-0 rounded-2xl transition-all duration-300 group-hover:scale-100 group-hover:bg-white/30"></div>
+  </button>
                 </div>
               </div>
             </div>
@@ -291,24 +239,7 @@ const Cartview = () => {
 
                   <div className="flex justify-center">
                     <div className="absolute bottom-4 transition duration-500 ease-in-out opacity-0 group-hover:opacity-100">
-                      <a
-                        href="#"
-                        className="bg-gray-700 px-3 py-3 hover:bg-red-500 transition duration-300 ease-in-out"
-                      >
-                        <i className="fas fa-shopping-cart transition duration-300 ease-in-out flex justify-center items-center text-gray-100"></i>
-                      </a>
-                      <a
-                        href="#"
-                        className="bg-gray-700 px-3 py-3 hover:bg-red-500 transition duration-300 ease-in-out"
-                      >
-                        <i className="fas fa-random transition duration-300 ease-in-out flex justify-center items-center text-gray-100"></i>
-                      </a>
-                      <a
-                        href="#"
-                        className="bg-gray-700 px-3 py-3 hover:bg-red-500 transition duration-300 ease-in-out"
-                      >
-                        <i className="fas fa-search transition duration-300 ease-in-out flex justify-center items-center text-gray-100"></i>
-                      </a>
+                     
                       <a
                         href="#"
                         className="bg-gray-700 px-3 py-3 hover:bg-red-500 transition duration-300 ease-in-out"
@@ -339,6 +270,10 @@ const Cartview = () => {
                       $400.00
                     </p>
                   </div>
+                  <button class="group relative h-12 w-48 overflow-hidden rounded-2xl bg-blue-500 text-lg font-bold text-white">
+    BUY NOW
+    <div class="absolute inset-0 h-full w-full scale-0 rounded-2xl transition-all duration-300 group-hover:scale-100 group-hover:bg-white/30"></div>
+  </button>
                 </div>
               </div>
             </div>
@@ -357,24 +292,7 @@ const Cartview = () => {
 
                   <div className="flex justify-center">
                     <div className="absolute bottom-4 transition duration-500 ease-in-out opacity-0 group-hover:opacity-100">
-                      <a
-                        href="#"
-                        className="bg-gray-700 px-3 py-3 hover:bg-red-500 transition duration-300 ease-in-out"
-                      >
-                        <i className="fas fa-shopping-cart transition duration-300 ease-in-out flex justify-center items-center text-gray-100"></i>
-                      </a>
-                      <a
-                        href="#"
-                        className="bg-gray-700 px-3 py-3 hover:bg-red-500 transition duration-300 ease-in-out"
-                      >
-                        <i className="fas fa-random transition duration-300 ease-in-out flex justify-center items-center text-gray-100"></i>
-                      </a>
-                      <a
-                        href="#"
-                        className="bg-gray-700 px-3 py-3 hover:bg-red-500 transition duration-300 ease-in-out"
-                      >
-                        <i className="fas fa-search transition duration-300 ease-in-out flex justify-center items-center text-gray-100"></i>
-                      </a>
+                     
                       <a
                         href="#"
                         className="bg-gray-700 px-3 py-3 hover:bg-red-500 transition duration-300 ease-in-out"
@@ -405,6 +323,10 @@ const Cartview = () => {
                       $1000.00
                     </p>
                   </div>
+                  <button class="group relative h-12 w-48 overflow-hidden rounded-2xl bg-blue-500 text-lg font-bold text-white">
+    BUY NOW
+    <div class="absolute inset-0 h-full w-full scale-0 rounded-2xl transition-all duration-300 group-hover:scale-100 group-hover:bg-white/30"></div>
+  </button>
                 </div>
               </div>
             </div>
@@ -425,24 +347,7 @@ const Cartview = () => {
 
                   <div className="flex justify-center">
                     <div className="absolute bottom-4 transition duration-500 ease-in-out opacity-0 group-hover:opacity-100">
-                      <a
-                        href="#"
-                        className="bg-gray-700 px-3 py-3 hover:bg-red-500 transition duration-300 ease-in-out"
-                      >
-                        <i className="fas fa-shopping-cart transition duration-300 ease-in-out flex justify-center items-center text-gray-100"></i>
-                      </a>
-                      <a
-                        href="#"
-                        className="bg-gray-700 px-3 py-3 hover:bg-red-500 transition duration-300 ease-in-out"
-                      >
-                        <i className="fas fa-random transition duration-300 ease-in-out flex justify-center items-center text-gray-100"></i>
-                      </a>
-                      <a
-                        href="#"
-                        className="bg-gray-700 px-3 py-3 hover:bg-red-500 transition duration-300 ease-in-out"
-                      >
-                        <i className="fas fa-search transition duration-300 ease-in-out flex justify-center items-center text-gray-100"></i>
-                      </a>
+                     
                       <a
                         href="#"
                         className="bg-gray-700 px-3 py-3 hover:bg-red-500 transition duration-300 ease-in-out"
@@ -473,6 +378,10 @@ const Cartview = () => {
                       $2500.00
                     </p>
                   </div>
+                  <button class="group relative h-12 w-48 overflow-hidden rounded-2xl bg-blue-500 text-lg font-bold text-white">
+    BUY NOW
+    <div class="absolute inset-0 h-full w-full scale-0 rounded-2xl transition-all duration-300 group-hover:scale-100 group-hover:bg-white/30"></div>
+  </button>
                 </div>
               </div>
             </div>
@@ -491,24 +400,7 @@ const Cartview = () => {
 
                   <div className="flex justify-center">
                     <div className="absolute bottom-4 transition duration-500 ease-in-out opacity-0 group-hover:opacity-100">
-                      <a
-                        href="#"
-                        className="bg-gray-700 px-3 py-3 hover:bg-red-500 transition duration-300 ease-in-out"
-                      >
-                        <i className="fas fa-shopping-cart transition duration-300 ease-in-out flex justify-center items-center text-gray-100"></i>
-                      </a>
-                      <a
-                        href="#"
-                        className="bg-gray-700 px-3 py-3 hover:bg-red-500 transition duration-300 ease-in-out"
-                      >
-                        <i className="fas fa-random transition duration-300 ease-in-out flex justify-center items-center text-gray-100"></i>
-                      </a>
-                      <a
-                        href="#"
-                        className="bg-gray-700 px-3 py-3 hover:bg-red-500 transition duration-300 ease-in-out"
-                      >
-                        <i className="fas fa-search transition duration-300 ease-in-out flex justify-center items-center text-gray-100"></i>
-                      </a>
+                     
                       <a
                         href="#"
                         className="bg-gray-700 px-3 py-3 hover:bg-red-500 transition duration-300 ease-in-out"
@@ -539,6 +431,10 @@ const Cartview = () => {
                       $750.00
                     </p>
                   </div>
+                  <button class="group relative h-12 w-48 overflow-hidden rounded-2xl bg-blue-500 text-lg font-bold text-white">
+    BUY NOW
+    <div class="absolute inset-0 h-full w-full scale-0 rounded-2xl transition-all duration-300 group-hover:scale-100 group-hover:bg-white/30"></div>
+  </button>
                 </div>
               </div>
             </div>
@@ -557,24 +453,7 @@ const Cartview = () => {
 
                   <div className="flex justify-center">
                     <div className="absolute bottom-4 transition duration-500 ease-in-out opacity-0 group-hover:opacity-100">
-                      <a
-                        href="#"
-                        className="bg-gray-700 px-3 py-3 hover:bg-red-500 transition duration-300 ease-in-out"
-                      >
-                        <i className="fas fa-shopping-cart transition duration-300 ease-in-out flex justify-center items-center text-gray-100"></i>
-                      </a>
-                      <a
-                        href="#"
-                        className="bg-gray-700 px-3 py-3 hover:bg-red-500 transition duration-300 ease-in-out"
-                      >
-                        <i className="fas fa-random transition duration-300 ease-in-out flex justify-center items-center text-gray-100"></i>
-                      </a>
-                      <a
-                        href="#"
-                        className="bg-gray-700 px-3 py-3 hover:bg-red-500 transition duration-300 ease-in-out"
-                      >
-                        <i className="fas fa-search transition duration-300 ease-in-out flex justify-center items-center text-gray-100"></i>
-                      </a>
+                     
                       <a
                         href="#"
                         className="bg-gray-700 px-3 py-3 hover:bg-red-500 transition duration-300 ease-in-out"
@@ -605,6 +484,10 @@ const Cartview = () => {
                       $900.00
                     </p>
                   </div>
+                  <button class="group relative h-12 w-48 overflow-hidden rounded-2xl bg-blue-500 text-lg font-bold text-white">
+    BUY NOW
+    <div class="absolute inset-0 h-full w-full scale-0 rounded-2xl transition-all duration-300 group-hover:scale-100 group-hover:bg-white/30"></div>
+  </button>
                 </div>
               </div>
             </div>

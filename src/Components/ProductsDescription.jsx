@@ -1,8 +1,9 @@
 import React from 'react'
+import { PropTypes } from 'prop-types'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHeart } from '@fortawesome/free-solid-svg-icons'
 import { faDollarSign } from '@fortawesome/free-solid-svg-icons'
-function projectsDescription({name}) {
+function ProjectsDescription({name}) {
   return (
    <div>
      <form action="">
@@ -140,5 +141,5 @@ function projectsDescription({name}) {
   )
 }
 
-export default projectsDescription
+export default ProjectsDescription
 
