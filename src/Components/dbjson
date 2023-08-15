@@ -4,19 +4,19 @@
         "id": 1,
         "name": "Cozy Sweater",
         "price": 39.99,
-        "imageSrc": "public/Assets/Sweater.jpg"
+        "imageSrc": "src/Assets/Sweater.jpg"
       },
       {
         "id": 2,
         "name": "Cool Sweater",
         "price": 29.99,
-        "imageSrc": "public/Assets/Coolsweater.jpg"
+        "imageSrc": "src/Assets/Coolsweater.jpg"
       },
       {
         "id": 3,
         "name": "Stylish Sweater",
         "price": 49.99,
-        "imageSrc": "public/Assets/Sweater2.jpg"
+        "imageSrc": "src/Assets/Sweater2.jpg"
       }
     ]
   }
