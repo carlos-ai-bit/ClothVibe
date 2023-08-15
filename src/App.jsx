@@ -26,6 +26,9 @@ import HomePage from "./Components/HomePage";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Cartview from "./Components/Cartview";
 import Payment from "./Components/Payment";
+
+import ProductsDescription from './Components/ProductsDescription';
+
 // import ProjectsDescription from "./Components/ProjectsDescription";
 // import ImageList from "./Components/ClothesData";
 function App() {
@@ -51,6 +54,8 @@ function App() {
         <Route exact path="/tops" element={<Tops />} />
         <Route exact path="/bags" element={<Bags />} />
         <Route exact path="/UnderWear" element={<UnderWear />} />
+        <Route exact path="/Cartview" element={<Cartview />} />
+        <Route exact path="/productsDescription" element={<ProductsDescription />} />
         <Route exact path="/AddCart" element={<AddCart />} />
         <Route exact path="/Signupage" element={<Signupage />} />
         <Route exact path="/Loginpage" element={<Loginpage />} />
