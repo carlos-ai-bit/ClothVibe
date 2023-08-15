@@ -43,7 +43,7 @@ function Products({ category }) {
   icon={faShoppingCart}
   className="Cart-icon"
   onClick={() => {
-    console.log('Add to Cart clicked:', product);
+    console.log('Add to ` Cart clicked:', product);
     addToCart(product);
   }}
 />
